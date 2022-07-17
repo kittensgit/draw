@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="content">
+            <h2>Scratch-Off Reveal Content Effects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolore ea cumque ipsam cupiditate nisi
+                consequuntur expedita facere laboriosam numquam. Nam voluptate atque magni ullam. Tempora velit quas cum
+                voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quisquam velit necessitatibus
+                vel vitae inventore veritatis eaque animi sequi fugit. Alias numquam amet sequi eos voluptates nisi, ab
+                nobis magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea consequuntur quod commodi
+                magnam, minima reprehenderit exercitationem itaque quasi voluptates, sunt illum ab, ex neque qui quis
+                aliquam obcaecati. Iusto, laboriosam?</p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script>
+        function setup(){
+            createCanvas(windowWidth, windowHeight);
+        }
+
+        function  draw(){
+            strokeWeight(100);
+            if (mouseIsPressed === true){
+                line(mouseX, mouseY, pmouseX, pmouseY)
+            }
+        }
+    </script>
+</body>
+
+</html>
